@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page web personnelle</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="apropos">
+      <nav>
+        <div>
+          <a href="#"
+            ><img src="./images/photo1.jpg" alt="Logo" class="logo"
+          /></a>
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li>
+              <i class="fa fa-user"></i><a href="#apropos">À propos de moi</a>
+            </li>
+            <li>
+              <i class="fa fa-laptop"></i><a href="#passion">Ma passion</a>
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i><a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="propos" id="propos">
+        <h1 class="nom" id="nom">AMARA GBOKO ANZOUMANAN</h1>
+        <div class="propos__containt">
+          <div class="parcours" id="parcours">
+            <p class="parcours__text">
+              Bonjour ! Je m'appelle GBOKO ANZOUMANAN, et je suis actuellement
+              étudiant en licence. Mon parcours scolaire a commencé à université
+              uvci, où j'ai développé un intérêt pour l'informatique. J'ai
+              toujours été passionné par le developpement web, et je cherche à
+              approfondir mes connaissances dans ce domaine. En dehors de mes
+              études, j'aime l'agriculture moderne, ce qui me permet de rester
+              motivé et équilibré. Je suis une personne curieuse et déterminée,
+              toujours prête à relever de nouveaux défis et à apprendre.
+            </p>
+          </div>
+          <div class="intérêt" id="intérêt">
+            <h2>Mon intérêt</h2>
+            <ul>
+              <li>Développement Front-End</li>
+              <li>Développement Back-End</li>
+              <li>Programmation mobile</li>
+              <li>programmation de jeux vidéo avec unity</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="passion" id="passion">
+        <h1>Ma passion pour le développement web</h1>
+        <p class="passion__text">
+          Depuis aussi loin que je me souvienne, j'ai toujours été fasciné par
+          l'idée de créer des choses à partir de rien. Le développement web est
+          pour moi bien plus qu'un simple métier : c'est une véritable passion.
+          J'aime l'idée que derrière chaque site, chaque application, se cache
+          une logique et un processus qui transforment une simple idée en
+          quelque chose de concret et interactif.
+        </p>
+        <h3>Pourquoi j'aime coder :</h3>
+        <div class="motivation">
+          <div>
+            <h2>Résolution de problèmes :</h2>
+            <p>
+              Trouver des solutions créatives et efficaces est incroyablement
+              satisfaisant pour moi.
+            </p>
+          </div>
+          <div>
+            <h2>L'impact des technologies:</h2>
+            <p>
+              Créer des applications qui facilitent la vie, rendent les
+              processus plus efficaces,découvrir de nouvelles expériences,me
+              motive au quotidien
+            </p>
+          </div>
+          <div>
+            <h2>Apprendre constamment</h2>
+            <p>
+              Chaque jour, je découvre de nouveaux outils, langages, ou méthodes
+              de travail. Cette constante évolution m'incite à toujours
+              apprendre et à chercher à m'améliorer.
+            </p>
+          </div>
+          <div>
+            <h2>Les projets collaboratifs :</h2>
+            <p>
+              Travailler en équipe, échanger des idées et voir un projet évoluer
+              grâce à la contribution collective est une expérience extrêmement
+              enrichissante.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <h2>Contactez-moi</h2>
+    <footer id="contact">
+      <form>
+        <div class="form__container">
+          <label for="name">Votre nom</label>
+          <input id="monInput" type="text" placeholder="Votre nom" required />
+        </div>
+        <div class="form__container">
+          <label for="email">Votre email</label>
+          <input id="email" type="email" placeholder="Votre email" required />
+        </div>
+        <div class="form__container">
+          <label for="message">Votre message</label>
+          <textarea
+            id="message"
+            placeholder="Votre message"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" onclick="afficherSaisie()">Envoyer</button>
+      </form>
+      <div class="medias">
+        <div class="media__social">
+          <a href="#"
+            ><img src="./images/icon-facebook.svg" alt="Facebook" />Facebook</a
+          >
+          <a href="#"
+            ><img src="./images/icon-twitter.svg" alt="Twitter" />Twitter</a
+          >
+          <a href="#"
+            ><img
+              src="./images/icon-instagram.svg"
+              alt="Instagram"
+            />Instagram</a
+          >
+          <a href="https://www.linkedin.com/in/gboko-amara/"
+            ><img src="./images/linkedin1.png" alt="LinkedIn" />LinkedIn</a
+          >
+          <a href="https://github.com/GBOKO-git"
+            ><img src="./images/github1.png" alt="Github" />Github</a
+          >
+        </div>
+        <div>
+          <p>
+            Contactez-moi à :
+            <a href="mailto:gboko.amara1@gmail.com">gboko.amara1@gmail.com</a>
+          </p>
+          <p>
+            Vous pouvez aussi rejoindre le groupe discord :
+            <a href="https://discord.gg/n6mYb9d">discord.gg/n6mYb9d</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/aa3d26eed5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
